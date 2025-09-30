@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: f3;
-    src: url(./Shadow-7WdR.ttf)
+    src: url(./Shadow-7WdR.ttf);
 }
 
 *{
@@ -47,7 +47,7 @@ p{
     color: #fff;
     font-size: 55px;
     padding-right: 20px;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 h2{
@@ -59,18 +59,30 @@ h2{
     padding-bottom: 30px;
 }
 
-h3{
+h3.line {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
-    font-size: 55px;
-    font-weight: 800;
-    padding-top: 200px;
-    font-family: f3;
+    font-size: 25px;
+    width: 14%;
+    line-height: 1.2;
+    margin-top: 160px;
+    font-weight: 900;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    opacity: 0.9;
 }
 
-button{
-    padding: 10px 20px;
+button {
+    padding: 10px 25px;
     font-size: 16px;
-    border-radius: 50px;
+    margin-left: 40px;
+    font-family: f2;
+    font-weight: 500;
+    letter-spacing: 3px;
+    border-radius: 30px;
     background-color: transparent;
     color: #fff;
+    cursor: pointer;
+    display: block;       
 }
