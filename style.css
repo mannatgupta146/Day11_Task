@@ -1,16 +1,16 @@
 @font-face {
     font-family: f1;
-    src: url(./Priestacy.otf)
+    src: url(./fonts/Priestacy.otf)
 }
 
 @font-face {
     font-family: f2;
-    src: url(./BrokenDetroit-RoLM.ttf);
+    src: url(./fonts/BrokenDetroit-RoLM.ttf);
 }
 
 @font-face {
     font-family: f3;
-    src: url(./Shadow-7WdR.ttf);
+    src: url(./fonts/Shadow-7WdR.ttf);
 }
 
 *{
@@ -65,7 +65,7 @@ h3.line {
     font-size: 25px;
     width: 14%;
     line-height: 1.2;
-    margin-top: 160px;
+    margin-top: 150px;
     font-weight: 900;
     text-align: left;
     margin-left: 40px;
